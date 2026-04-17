@@ -1,0 +1,90 @@
+html {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-size: cover; /* Scales image to fill the page without distortion */
+    background-position: center; /* Centers the image within the element */
+    background-attachment: fixed; /* Keeps background fixed during scroll */
+}
+
+body {
+    margin: 50px;
+}
+
+#Header {
+    display: flex; /* Makes the header container a flexbox */
+    position: sticky; /* Keeps the header at the top of the screen at all times */
+    height: 100px;
+    background-color: black;
+    border-top-left-radius: 15px; /* Curves the top left edge of the page */
+    border-top-right-radius: 15px; /* Curves the top right edge of the page */
+}
+
+#Header h1 {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    padding: 10px;
+    font-size: 3em;
+}
+
+#Header img {
+    display: flex;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */
+    padding:0.2em 0.6em;
+    border: 4px solid #484848;
+    color: white;
+    font-size: 1.4em;
+}
+
+nav a:hover{
+    background-color: #acacac;
+	color: #383838;
+    border-color: #7a7a7a;
+}
+
+.MenuCurrentPage {
+	background-color: #e9e9e9;
+	color: #000000;
+    border-color: #aeaeae;
+}
+
+#Page {
+    display: flex; /* Makes the page container a flexbox */
+    padding-bottom: 1em;
+    padding-top: 1em;
+    height: 70vh;
+    background-color: rgb(79, 79, 79);
+    align-items: center;
+}
+
+#Footer {
+    display: flex; /* Makes the footer container a flexbox */
+    position: sticky;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 15px; /* Curves the bottom left edge of the page */
+    border-bottom-right-radius: 15px; /* Curves the bottom right edge of the page */
+}
+
+#Footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#Footer a:hover {
+    background-color: #aeaeae;
+    color: #383838;
+}
