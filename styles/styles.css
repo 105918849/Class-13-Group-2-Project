@@ -76,3 +76,89 @@ nav a:hover{
     text-align: space-between;
     border-radius: 15px; /* Curves the edges of the page */
 }
+
+.look { 
+    color: rgb(0, 0, 0);
+    text-align: center;  
+    text-decoration: underline;
+    background-color: aliceblue;
+    border: 10px dashed rgb(0, 0, 0);
+}
+
+.images {  
+    margin: 50px;
+}
+
+.skills {
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#job1 { 
+    font-size: 18px;
+    float: left;
+    width: 25%;
+    margin: 5em;
+    padding: 5em;
+    border: 10px groove rgb(0, 0, 0);
+    background-color: rgb(255, 243, 198);
+}
+
+#architect {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#job2 { 
+    font-size: 18px;
+    float: left;
+    width: 25%;
+    margin: 5em;
+    padding: 5em;
+    border: 10px groove rgb(0, 0, 0);
+    background-color: rgb(255, 243, 198);
+
+ }
+
+ #manager {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 115px;
+    
+ }
+
+ .response {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ .buttons {
+    color: black;
+    text-decoration:solid;
+    text-align: center;
+    background-color: rgb(255, 248, 248);
+    border: 3px solid black;
+    font-size: 20px;
+    padding: 0.5em;
+    cursor: pointer;
+    margin-top:100px;
+    margin-left: 100px;
+ }
+
+ button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+
+ .buttons:hover {
+    background-color: rgb(199, 239, 214);
+ }
+ 
