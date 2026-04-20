@@ -67,3 +67,12 @@ nav a:hover{
     text-align: center;
     border-radius: 15px; /* Curves the edges of the page */
 }
+
+#Details {
+    display: flex; /* Makes the page container a flexbox */
+    padding: 1em;
+    background-color: rgb(255, 243, 198);
+    align-items: right;
+    text-align: space-between;
+    border-radius: 15px; /* Curves the edges of the page */
+}
